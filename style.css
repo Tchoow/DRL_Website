@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color:#fff
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    margin: 10px;
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.side-bar a {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: solid red 5px;
+    padding: 0px 4px;
+}
+
+.side-bar .selecteur {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.side-bar .selecteur hn{
+    margin:0;
+    padding: 0;
+}
+.side-bar .selecteur div{
+    display: flex;
+}
+
+.side-bar .selecteur p{
+    font-size: 10px;
+    color: rgba(247, 249, 241, 0.5);
+}
+
+.side-bar .selecteur h4{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top:10px;
+    margin-right: 3px
+}
+
+header a {
+    color: rgba(247, 249, 241, 0.5); 
+}
+
+.header-container {
+    background-color:#4FE88A;
+    width: 20vw;
+    height: 100%;
+}
+
+.header-back {
+    width: 80vw;
+    height: 100%;
+    background-color:#f3f3f3;
+    border-bottom-right-radius:7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-website {
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 0;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: .3s all ease;
+    
+}
+
+.current-section p {
+    width: 60%;
+    font-size: 15px;
+    color: rgba(247, 249, 241, 0.6);
+}
+
+.article img {
+    height: 102px;
+
+}
+
+.article div {
+    padding: 5px;
+}
+
+.article p {
+    width: 100%;
+}
+
+.article {
+    background-color: rgba(247, 249, 241, 0.1);
+    filter: contrast(110%) brightness(105%);
+    width:100%;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.main-slider {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image:url('assets/img/background_home.jpg');
+    background-position: 100% 75%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    filter: contrast(110%) brightness(105%);
+    
+}
+
+.btn-join {
+    background-color: #ff4757;
+    
+}
+
+.btn-sign {
+    background-color: transparent;
+}
+
+.main-slider section {
+    border-right: 1px solid rgba(247, 249, 241, 0.1);
+}
+
+.current-section {
+    width: 65vw;
+}
+
+.current-section main {
+    margin: 10%;
+}
+
+.current-section main h1{
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.close-section {
+    width: 12vw;
+    transition: all .3s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.close-section a {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: solid red 5px;
+    padding: 0px 4px;
+}
+
+.close-section:hover {
+    background-color: rgba(247, 249, 241, 0.1);
+    transition: all .3s ease;
+}
+
+
+
+
+.close-section .selecteur hn{
+    margin: 0;
+    padding: 0;
+}
+.close-section .selecteur div{
+    display: flex;
+}
+
+.close-section .selecteur p{
+    font-size: 10px;
+    color: rgba(247, 249, 241, 0.5);
+}
+
+.close-section .selecteur h4{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top:10px;
+    margin-right: 3px
+}
+
