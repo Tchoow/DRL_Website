@@ -3,7 +3,9 @@ body {
     background-color: #000000;
     margin: 0;
     padding: 0;
-    color:#fff
+    color:#fff;
+    height: 100vh;
+    cursor: none;
 }
 
 a {
@@ -216,3 +218,18 @@ button:hover {
     margin-right: 3px
 }
 
+
+#cursor {
+    position: absolute;
+    z-index: 500;
+    background-color: rgba(247, 249, 241, 0.2);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid rgba(247, 249, 241, 0.5);
+}
+
+.expand {
+    transition: .5s all ease;
+    background-color: rgba(247, 249, 241, 0.5) !important;
+}
