@@ -6,6 +6,7 @@ body {
     color:#fff;
     height: 100vh;
     cursor: none;
+    overflow:hidden
 }
 
 a {
@@ -144,6 +145,7 @@ button:hover {
     background-repeat: no-repeat;
     filter: contrast(110%) brightness(105%);
     
+    
 }
 
 .btn-join {
@@ -230,6 +232,5 @@ button:hover {
 }
 
 .expand {
-    transition: .5s all ease;
     background-color: rgba(247, 249, 241, 0.5) !important;
 }
