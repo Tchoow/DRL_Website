@@ -1,8 +1,9 @@
 # Drone Racing League WebSite
 
 🌐
-Dans le cadre d'un entrainement HTML/CSS/JS j'ai réalisé une maquette trouvée sur Dribbble:
-https://dribbble.com/shots/4708486-The-Drone-Racing-League-Animation-Concept
+Dans le cadre d'un entrainement HTML/CSS/JS j'ai réalisé une maquette trouvée sur [Dribbble](https://dribbble.com/shots/4708486-The-Drone-Racing-League-Animation-Concept).
+<br />
+Vous pouvez consulter une première version su site juste [ici](https://tchoow.github.io/DRL_Website/).
 
 # 🔴 Images du prototype
 ![img 1](https://media.discordapp.net/attachments/671292077870415872/910892768249917471/unknown.png?width=911&height=670)
